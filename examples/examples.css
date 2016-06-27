@@ -1,0 +1,48 @@
+﻿@charset "UTF-8";
+
+* { box-sizing: border-box; }
+
+body {
+	font: 16px sans-serif;
+	color: #454545;
+	background: #fff;
+	margin: 0;
+	padding: 3rem 2rem 2rem 2rem;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 1.4rem;
+	color: #555;
+}
+
+.PDFEditor-com {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2016;
+}
+
+.PDFEditor-com a:link, .PDFEditor-com a:visited, .button a:link, .button  a:visited {
+	color: #fff;
+	font-weight: bold;
+	display: block;
+	padding: .25rem 1rem;
+	background: #6699FF;
+	text-decoration: none;
+}
+
+.PDFEditor-com a:hover, .PDFEditor-com a:visited:hover, .button a:hover, .button a:visited:hover {
+	color: #FFF;
+	background: #FF3366;
+	text-decoration: none;
+}
+
+.PDFEditor-com a:before {
+	 content: "\2190";
+	 margin-right: .25rem;
+}
+
+.button{
+	width: 600px;
+}

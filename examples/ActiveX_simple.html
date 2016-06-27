@@ -1,0 +1,35 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>PDF-XChange Editor ActiveX Examples</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<link href="examples.css" rel="stylesheet" />
+
+	<style>
+		.PDFXEditor {
+			max-width: 100%;
+			width: 600px;
+			height: 600px;
+			border: 10px solid rgba(0,0,0,.2);
+			margin: 0;
+		}
+	</style>
+
+	<script language="javascript">
+	function openDocument() {
+		var PDFXEdit = document.getElementById("PDFXEditor");
+		PDFXEdit.Src = "http://docu-track.co.uk/FeatureChartEU.pdf";
+	}
+	</script>
+</head>
+<body onLoad="openDocument()">
+	<h1> PDF-XChange Editor ActiveX Examples </h1>
+
+	<div class="PDFXEditor">
+		<object id="PDFXEditor" classid="CLSID:A1149909-4EDC-4421-B9E5-E93C25A000A1" width="100%" height="100%"></object>
+	</div>
+
+	<div class="PDFEditor-com"><a href="http://tracker-software.github.com ">tracker-software.github.com </a></div>
+</body>
+</html>
